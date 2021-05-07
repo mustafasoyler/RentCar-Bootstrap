@@ -1,0 +1,157 @@
+.bolum1 {
+    height: 100vh;
+    background: url("file:///C:/Users/ASUS/Desktop/bootstrap/images/bg_1.jpg");
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    position: absolute;
+    top: 30px;
+    width: 85%;
+    z-index: 999;
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.8);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+.bolum1 .navbar-brand {
+    font-weight: 600;
+}
+
+.bolum1 .navbar li {
+    margin-left: 15px;
+}
+
+.bolum1 .navbar li a {
+    font-size: 15px;
+    color: white !important;
+    font-weight: 300;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+
+.bolum1 .navbar .navbar-nav .active>a,
+.bolum1 .navbar .navbar-nav a:hover {
+    color: #f7b71d !important;
+}
+
+.bolum1 .container .row {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.bolum1 .sagicerik {
+    padding: 25px;
+    border-radius: 3px;
+}
+
+.bolum1 .sagicerik h3 {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bolum1 .sagicerik label {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.bolum1 .sagicerik input[type="submit"] {
+    margin-top: 25px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    padding: 15px 0;
+}
+
+.bolum1 .sagicerik input[type="submit"] {
+    font-size: 12px;
+}
+
+@media only screen and (max-width:768px) {
+    .bolum1 {
+        height: 850px;
+    }
+    h2 {
+        margin-top: 35px;
+    }
+}
+
+.bolum2 {
+    margin-top: 50px;
+}
+
+.bolum2 label {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bolum2 select {
+    font-size: 16px;
+}
+
+.bolum2 .btn.btn-primary {
+    margin-top: 39px;
+    border: none
+}
+
+.bolum3 {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.bolum3 p {
+    color: cornflowerblue;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.bolum3 h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.bolum3 i {
+    font-size: 25px;
+    color: #c9835c;
+}
+
+.bolum3 h4 {
+    display: inline;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bolum3 .etiket p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #454545;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
