@@ -2,9 +2,9 @@
 
 #### Bu projemde bir site tasarladım.Site flex yapıda olup responsive özellik göstermektedir.
 
-#### İlk iki resimde sayfaımızı tam kaplayacak şekilde bir tasarım görünümü vardır.
+#### İlk iki resimde sayfamızı tam kaplayacak şekilde bir tasarım görünümü vardır.
 
-#### Son iki resimde sayfaımızın belli bir boyutlarda küçültülmüş şekilde bir tasarım görünümü vardır.
+#### Son iki resimde sayfamızın belli bir boyutlarda küçültülmüş şekilde bir tasarım görünümü vardır.
 
 
 
